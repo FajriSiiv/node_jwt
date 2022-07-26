@@ -7,9 +7,9 @@
   ],
   "routes": [
     {
-      "src": "/views/(.*)",
+      "src": "/(.*)",
       "dest": "app.js"
     }
   ],
-  "rewrites": [{ "source": "/views/(.*)", "destination": "/views" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
